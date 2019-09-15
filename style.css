@@ -1,20 +1,49 @@
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  background-color: grey;
+}
+
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
 }
 
+html {
+  /*Set an initial font size of 10px to give easier rem calculations */
+  font-size: 10px;
+}
+
 #image {
-  width: 10em;
+  max-width: 100%;
+  height: auto;
   align-content: center;
+  margin: 0 auto;
 }
 
 #img-div {
-  background-color: white;
+  background: white;
+  padding: 10px;
+  margin: 0;
 }
 
 #main {
-  background-color: grey;
   font-family: "Segoe UI";
-  font-size: 1.5rem;
-  text-align: center;
+  height: auto;
+  padding: 15px;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+ol {
+  max-width: 50%;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
 }
