@@ -1,0 +1,20 @@
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#image {
+  width: 10em;
+  align-content: center;
+}
+
+#img-div {
+  background-color: white;
+}
+
+#main {
+  background-color: grey;
+  font-family: "Segoe UI";
+  font-size: 1.5rem;
+  text-align: center;
+}
