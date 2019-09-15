@@ -17,10 +17,11 @@ html {
 }
 
 #image {
-  max-width: 100%;
-  height: auto;
   align-content: center;
+  display: block;
+  height: auto;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 #img-div {
@@ -33,12 +34,6 @@ html {
   font-family: "Segoe UI";
   height: auto;
   padding: 15px;
-}
-
-@media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
 }
 
 ol {
